@@ -1,0 +1,82 @@
+@import url(styles/header.css);
+@import url(styles/banner.css);
+
+:root{
+    --cor-de-fundo:#2e2e2e;
+    --branco:#2e2e2e;
+    --amarelo:#f5c529;
+    --roxo:#161616;
+    --fonte-principal: "Poppins";
+    --fonte-secundaria: "Josefin Sans";
+}
+
+body{
+    background-color:var(--cor-de-fundo);
+font-family: var(--fonte-principal);
+font-size: 16px;
+font-weight: 400;
+}
+
+.livros{
+    background-color: #131313;
+    color: #ffffff;
+    text-align: center;
+}
+
+.suicidastxt{
+    padding: 1vw;
+    padding-bottom: 1vw;
+    text-align: justify;
+    background-color: #222222;
+}
+
+.suicidasbook{
+    padding: 1vw;
+}
+
+.jantartxt{
+    padding: 1vw;
+    text-align: justify;
+    background-color: #222222;
+}
+
+.jantarbook{
+    padding: 1vw;
+    padding-top: 2vw;
+}
+
+.vilarejotxt{
+    padding: 1vw;
+    padding-bottom: 1vw;
+    text-align: justify;
+    background-color: #222222;
+}
+
+.vilarejobook{
+    padding: 1vw;
+    padding-top: 3vw;
+}
+
+.mentirosostxt{
+    padding: 1vw;
+    padding-bottom: 1vw;
+    text-align: justify;
+    background-color: #222222;
+}
+
+.mentirososbook{
+    padding: 1vw;
+    padding-top: 3vw;
+}
+
+.veritytxt{
+    padding: 1vw;
+    padding-bottom: 1vw;
+    text-align: justify;
+    background-color: #222222;
+}
+
+.veritybook{
+    padding: 1vw;
+    padding-top: 3vw;
+}
